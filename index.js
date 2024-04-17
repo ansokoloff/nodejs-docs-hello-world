@@ -14,7 +14,6 @@ const pkg = require('./package.json');
 const port = process.env.PORT || 3000;
 const apiPrefix = '/api';
 
-
 // Store data in-memory, not suited for production use!
 const db = {
     test: {
